@@ -8,7 +8,7 @@ const Login = require('./routes/Login.route');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://alishan:ali123@cluster0.sgtcb.mongodb.net/EMS', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
+mongoose.connect('mongodb+srv://anas:anas123@cluster0.k9rba.mongodb.net/EMS', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
     .then(() => console.log("Connected to Database"))
     .catch(err => {
         console.error("Couldnot connect to Database", err);
